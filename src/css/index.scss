@@ -1,0 +1,24 @@
+@import "./estates";
+@import "./comparedestates";
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: rgb(155, 155, 155);
+  padding-bottom: 0.7em;
+  text-align: center;
+  font-size: 3em;
+  border-bottom: 1px solid rgb(186, 184, 184);
+}
